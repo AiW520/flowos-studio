@@ -1,0 +1,15 @@
+.next/
+.next-*/
+node_modules/
+.flowos/
+.flowos-data/
+.env*
+!.env.example
+qa-artifacts/
+*.log
+*.tsbuildinfo
+
+# Independent checkout and generated release/QA artifacts.
+/opentu/
+/flowos-a/*.tgz
+/flowos-a/artifacts/
